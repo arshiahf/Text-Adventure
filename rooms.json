@@ -1,0 +1,31 @@
+{
+  "Home": {
+    "Description": {
+      "Default": "This is not a room. This is a location of destiny. Your destiny. Which is to eat a burrito. Go eat a burrito or something.",
+      "Eat Burrito": {
+        "Default": "This is not a room. This is a location of destiny. Your destiny. Which is to eat a burrito. You already ate the burrito."
+      }
+    },
+    "Commands": {
+      "Look": "You see a burrito. It looks delicious.",
+      "Eat": "What do you want to eat? Your shoe?",
+      "West": "Palace",
+      "Eat Burrito": {
+        "Default": "It was delicious, and very fattening.",
+        "Look": "There is nothing here.",
+        "Eat": "You aren't hungry any more. The burrito was very filling.",
+        "Eat Burrito": "There is no longer a burrito. Sadness follows burritolessness.",
+        "West": "Palace"
+      }
+    }
+  },
+  "Palace": {
+    "Description": {
+      "Default": "It's a palace."
+    },
+    "Commands": {
+      "Look": "It's a palace. What do you want from me?",
+      "East": "Home"
+    }
+  }
+}
